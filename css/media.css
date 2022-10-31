@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 736px) {
+    .project-img {
+        height: 293px;
+        width: 293px;
+    }
+}
+
+@media only screen and (min-width: 412px) {
+    .project-grid {
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        margin-bottom: 28px;
+    }
+
+    .tab-content {
+        margin-left: 15px;
+    }
+
+    .project-card {
+        margin-right: 28px;
+        max-height: 281px;
+        max-width: inherit;
+    }
+
+    .project-img {
+        height: 281px;
+        width: 281px;
+    }
+
+    /*=============== SKILLS ===============*/
+    .skills-grid {
+        width: 935px;
+        margin-bottom: 28px;
+        display: flex;
+        height: auto;
+        font-weight: 600;
+        flex-direction: row;
+        margin-right: 60px;
+        color: #8e8e8e;
+        justify-content: center;
+    }
+
+    .skills-title {
+        letter-spacing: 4px;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .skills-box {
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        column-gap: 3rem;
+    }
+
+    .skills-group {
+        display: grid;
+        align-content: flex-start;
+    }
+
+    .skills-data {
+        display: flex;
+        column-gap: .5rem;
+        margin-bottom: 15px;
+    }
+
+    .skills-data i {
+        font-size: 1rem;
+        margin-top: 13.5px;
+        color: #191919;
+    }
+
+    .skills-name {
+        letter-spacing: 2px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+
+    .skills-level {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+}
