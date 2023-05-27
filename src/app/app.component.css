@@ -10,12 +10,14 @@ nav {
     border: 0 auto;
 }
 
-/* BODY */
+html {
+    background: #fafafa;
+}
 
+/* BODY */
 body {
     margin: 0 auto 30px;
     padding: 30px 20px 0;
-    background: #fafafa;
     font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     max-width: 935px;
     position: 2px absolute;

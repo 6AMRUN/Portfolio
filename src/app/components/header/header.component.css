@@ -99,25 +99,8 @@ h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin: 2px 2px;
+    margin: 2px 10px;
 }
-
-/* 
-.nav-button {
-    display: block;
-    background-color: transparent;
-    border: 1px solid #dbdbdb;
-    color: #262626;
-    min-width: 5%;
-    border-radius: 4px;
-    position: relative;
-    padding: 2px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 2px 2px;
-} */
 
 .menu {
     -webkit-appearance: none;
@@ -133,10 +116,6 @@ h2 {
 a {
     text-decoration: none;
     color: #8e8e8e;
-}
-
-.button {
-    color: #262626;
 }
 
 .profile-grid {
