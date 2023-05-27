@@ -1,0 +1,30 @@
+.project {
+    align-items: center;
+    text-decoration: none;
+    background: transparent;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    margin-right: 60px;
+    color: #000;
+    border-top: 1px solid black;
+}
+
+.skills {
+    text-decoration: none;
+    align-items: center;
+    background: transparent;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    height: 52px;
+    margin-right: 60px;
+    color: #8e8e8e;
+}
