@@ -5,9 +5,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { ModalComponent } from './components/modal/modal.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { HeaderComponent } from './components/header/header.component';
-import { ModalComponent } from './components/modal/modal.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ProjectsComponent
   ],
   imports: [
-    NgModule,
+    NgbModule,
     BrowserModule,
     AppRoutingModule
   ],

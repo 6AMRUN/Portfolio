@@ -23,6 +23,7 @@ body {
 
 /* FOOTER */
 footer {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     margin: 1em;
     display: block;
     font-size: 12px;
