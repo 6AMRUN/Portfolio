@@ -5,8 +5,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 
 const routes: Routes = [
-  { path: "", component: ProjectsComponent },
-  { path: "skills", component: SkillsComponent }
+  { path: '', component: ProjectsComponent },
+  { path: 'skills', component: SkillsComponent }
 ];
 
 @NgModule({

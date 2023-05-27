@@ -1,4 +1,4 @@
-    <div class="profile-grid">
+<div class="profile-grid">
         <div class="profile-data">
             <div class="pfp-border">
                 <div class="pfp">
@@ -8,20 +8,12 @@
             <section class="right-side">
                 <section class="NBTN">
                     <div class="left">
-                        <h2 class="profile-name">6amrun</h2>
-                    </div>
-                    <div class="header-buttons">
-                        <button class="nav-button">
-                            <a href="mailto:krisafarinas@gmail.com" class="button">Message</a>
-                        </button>
-                        <button class="nav-button">
-                            <a download="" href="/assets/pdf/Alexies Farinas Resume 2023.pdf" class="button">
-                                <i class="bi bi-download"></i>
-                            </a>
-                        </button>
-                        <button class="menu" type="button" id="BTN">
-                            <i class="bi bi-three-dots"></i>
-                        </button>
+                        <h2 class="profile-name">Lexi</h2>
+                        <div class="profile-button">
+                            <button class="btn btn-secondary btn-sm"><a href="mailto:krisafarinas@gmail.com">Message</a></button>
+                            <button class="btn btn-secondary btn-sm"><a download="" href="/assets/pdf/Alexies Farinas Resume 2023.pdf"><i class="bi bi-download"></i></a></button>
+                            <button class="menu" type="button" id="BTN"><i class="bi bi-three-dots"></i></button>
+                        </div>
                     </div>
                 </section>
                 <ul class="ul-numbers">
@@ -35,4 +27,11 @@
                 </section>
             </section>
         </div>
+</div>
+
+<main class="main">
+    <div class="filter-header">
+        <a [routerLinkActive]="'active'" [routerLinkActiveOptions]='{exact:true}' routerLink="" class="project"><i class=" ri-grid-line"></i>PROJECTS</a>
+        <a [routerLinkActive]="'active'" routerLink="/skills" class="skills"><i class="ri-hashtag"></i>SKILLS</a>
     </div>
+</main>
